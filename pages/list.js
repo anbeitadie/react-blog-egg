@@ -56,7 +56,7 @@ const ArticleList = (list) =>{
       </Head>
       <Header />
       <Row className="comm-main" type="flex" justify="center">
-        <Col className="comm-left" xs={24} sm={24} md={18}  >
+        <Col className="comm-left" xs={24} sm={24} md={16} lg={18} xl={14}  >
             <div>
               <div className="bread-div">
                 <Breadcrumb>
@@ -100,7 +100,7 @@ const ArticleList = (list) =>{
             </div>
         </Col>
   
-        <Col className="comm-right" xs={0} sm={0} md={6} >
+        <Col className="comm-right" xs={0} sm={0} md={7} lg={5} xl={4}>
           <Author />
           {/* <Advert /> */}
         </Col>
