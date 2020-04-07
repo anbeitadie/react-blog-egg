@@ -21,6 +21,10 @@ class MainController extends Controller{
             this.ctx.body={data:'登录失败'}
         }
     }
+    async getTypeInfo(){
+        const res = await this.app.mysql.select('type')
+        this.ctx.body = {data:res}
+    }
 
 }
 
